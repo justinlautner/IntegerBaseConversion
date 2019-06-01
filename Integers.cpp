@@ -1,8 +1,7 @@
 /*
- * CSC 376
- * Chapter 3 Assignment 1
+ * IntegerBaseConversion
+ * Created By:
  * Justin Lautner
- * Student Number: 679361959​
  */
 
 #include <iostream>
