@@ -30,13 +30,14 @@ int main(){
 		return 0;
 	}
 
-	//Checking for Hex vs. otherwise, as Hex requires letters
+	//Converting to chosen base integer
 	if (r > 1 && r < 16){
 		while (i != 0){
 			answer = std::to_string(i % r) + answer;
 			i = i / r;
 		}
 	}
+	//Checking for Hex vs. otherwise, as Hex requires letters
 	if (r == 16){
 		while (i != 0){
 			switch(i % r){;
